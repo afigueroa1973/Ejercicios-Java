@@ -3,7 +3,7 @@
 El presente repositorio incluye una serie de ejercicios resueltos en el lenguaje de programación Java,
 ejercicios que fueron extraídos de algunos libros y cursos sobre el tema... Para la indentación se
 utilizó el estándar ["Google Java Style Guide"](https://google.github.io/styleguide/javaguide.html),
-cuyo repositorio para configuración de tu IDE lo puedes encontrar [aqui](https://github.com/google/styleguide).
+cuyo repositorio para configuración de tu IDE lo puedes encontrar [aquí](https://github.com/google/styleguide).
 
 Para mayor información sobre como instalarlos en tu IDE, te dejo los enlaces para configurarlo en
 [Eclipse](http://www.practicesofmastery.com/post/eclipse-google-java-style-guide/) e
