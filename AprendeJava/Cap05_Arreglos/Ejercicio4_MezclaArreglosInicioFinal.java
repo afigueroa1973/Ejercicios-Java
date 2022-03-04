@@ -29,7 +29,8 @@ public class Ejercicio4_MezclaArreglosInicioFinal {
       System.out.print(numeros[i] + ", "); // imprimirá el primer elemento
       System.out.print(numeros[9 - i] + ", "); // Luego imprimirá el último elemento y asi sucesivamente
     }
-    System.out.print("\b\b\n");
+    System.out.print("\b\b\n"); // Los caracteres de escape "\b\b" se utilizan para eliminar esa
+    // última "coma" y el espacio que se imprimen en el bucle
 
     input.close(); // Se cierra la clase Scanner
   }
