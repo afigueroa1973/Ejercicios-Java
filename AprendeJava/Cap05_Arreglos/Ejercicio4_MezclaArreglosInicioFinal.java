@@ -13,7 +13,7 @@ public class Ejercicio4_MezclaArreglosInicioFinal {
     Scanner input = new Scanner(System.in);
 
     System.out.println("\n** I M P R I M I R  I N I C I O / F I N A L **");
-    System.out.println("---------------------------------------------");
+    System.out.println("----------------------------------------------");
 
     // Se crea un arreglo de 10 elementos
     int[] numeros = new int[10];
@@ -27,7 +27,7 @@ public class Ejercicio4_MezclaArreglosInicioFinal {
     System.out.print("\nEl arreglo sería: ");
     for (int i = 0; i < 5; i++) {
       System.out.print(numeros[i] + ", "); // imprimirá el primer elemento
-      System.out.print(numeros[9 - i] + ", "); // Luego imprimirá el último elemento y asi sucesivamente
+      System.out.print(numeros[9 - i] + ", "); // Luego imprime el último elemento y asi sucesivamente
     }
     System.out.print("\b\b\n"); // Los caracteres de escape "\b\b" se utilizan para eliminar esa
     // última "coma" y el espacio que se imprimen en el bucle
