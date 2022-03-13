@@ -20,7 +20,7 @@ public class Ejercicio6B_MezclaArreglos3y3 {
     int[] z = new int[24]; // Arreglo "z" que contendrá a "x" y "y"
 
     // Pedimos el arreglo "x"
-    System.out.println("\nIngresando el primer arreglo...");
+    System.out.println("Ingresando el primer arreglo...");
     for (int i = 0; i < 12; i++) {
       System.out.print("Favor ingrese un número[" + (i + 1) + "]: ");
       x[i] = input.nextInt();
@@ -31,10 +31,9 @@ public class Ejercicio6B_MezclaArreglos3y3 {
       System.out.print("Favor ingrese un número[" + (i + 1) + "]: ");
       y[i] = input.nextInt();
     }
-    // Ahora mezclamos en el arreglo "z", 3 de "x" y 3 de "y", el indice "i" será para los arreglos
-    // "x" y "y" y el índice "j" será para el arreglo "z"
-    int i = 0;
-    int j = 0;
+    // Ahora mezclamos en el arreglo "z", 3 elementos de "x" y 3 de "y"...
+    int i = 0; // El indice "i" será para los arreglos "x" y "y"
+    int j = 0; // El índice "j" será para el arreglo "z"
 
     while (i < 12) {
       //Copiamos tres elementos de "x"
@@ -49,7 +48,8 @@ public class Ejercicio6B_MezclaArreglos3y3 {
       }
       i += 3; //Como hemos copiado tres elementos de "x" y "y", incrementamos a "i" en tres
     }
-    System.out.print("\nEl arreglo es: "); // Imprimimos el arreglo resultante
+    // Imprimimos el arreglo resultante
+    System.out.print("\nEl arreglo es: ");
     for (int k = 0; k < 24; k++) {
       System.out.print(z[k] + ", ");
     }
